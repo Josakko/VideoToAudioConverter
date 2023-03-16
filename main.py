@@ -39,6 +39,7 @@ def status():
     result_label.config(text="Conversion successful!")
     root.title("File Converted")
     progress_bar.config(maximum=duration)
+    messagebox.showinfo("Info", "File conversion successful!")
     time.sleep(5)
     root.title("Video To Audio Converter")
     progress_bar.config(value=0)
