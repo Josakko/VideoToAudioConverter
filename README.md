@@ -1,7 +1,7 @@
 # VideoToAudioConverter
 Converter that you can use to convert mp4 files to mp3
 
-# Usage 
+## Usage 
 Download executable file [here]().
 
 ## Need Help?
