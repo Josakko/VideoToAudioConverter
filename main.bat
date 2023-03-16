@@ -1,3 +1,3 @@
 @echo off
-cd C:\Users\Korisnik\Documents\Programs\Simple\VideoToAudioConverter
+cd "path to "main.py" file"
 python main.py
