@@ -1,5 +1,6 @@
 import os
 import time
+from tkinter import messagebox
 from tkinter import *
 from tkinter import filedialog
 from tkinter import ttk
@@ -24,10 +25,12 @@ root.resizable(False, False)
 root.config(bg="#dbdbdb")
 
 def select_file():
+    global file_path
     file_path = filedialog.askopenfilename(filetypes=[("Video Files", "*.mp4")])   #(filetypes=[("Video Files", "*.mp4;*.avi;*.mkv;*.mov")])
     file_path_label.config(width=35, text=file_path)
 
 def select_save_path():
+    global save_path
     save_path = filedialog.asksaveasfilename(defaultextension=".mp3", filetypes=[("MP3 Files", "*.mp3")])
     save_path_label.config(width=35, text=save_path)
 
@@ -49,8 +52,6 @@ def status():
 
 def convert_file():
     global duration
-    file_path = file_path_label.cget("text")
-    save_path = save_path_label.cget("text")
     if file_path.endswith(".mp4"):
         if save_path:
             mp4_audio = VideoFileClip(file_path)
