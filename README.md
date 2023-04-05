@@ -6,7 +6,7 @@ Download executable file [here](). (executable file does not exist due to the co
 
 
 <p align="center">
-  <img alt="issue" src="https://github.com/Josakko/VideoToAudioConverter/blob/main/image.png?raw=true" width="650px">
+  <img alt="issue" src="https://github.com/Josakko/VideoToAudioConverter/blob/main/image.png?raw=true" width="500px">
 </p>
 
 ## Need Help?
