@@ -1,3 +1,2 @@
 @echo off
-cd "path to "main.py" file"
-python main.py
+start /min pythonw.exe main.py
